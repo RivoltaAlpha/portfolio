@@ -1,6 +1,7 @@
 import { About } from "../components/About";
 import { Certifications } from "../components/Certifications";
 import { CommunityEngagement } from "../components/CommunityEngagement";
+import ContactSection from "../components/Contact";
 import { Education } from "../components/Education";
 import { Experience } from "../components/Experience";
 import { Footer } from "../components/Footer";
@@ -18,6 +19,7 @@ const Portfolio: React.FC = () => {
           <Experience />
           <Certifications />
           <CommunityEngagement />
+          <ContactSection />
         </main>
         <Footer />
       </div>
