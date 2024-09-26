@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
-  "/api/placeholder/400/500",
-  "/api/placeholder/400/500",
-  "/api/placeholder/400/500"
+  "https://i.postimg.cc/fbJ7t0cd/IMG-7299.jpg",
+  "https://i.postimg.cc/XYDdb7RY/IMG-7384.jpg",
+  "https://i.postimg.cc/Y0fDnmy9/IMG-7564.jpg"
 ];
 
 export const Hero: React.FC = () => {
@@ -19,8 +19,8 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section className="py-32 flex mr-[100px] justify-evenly">
-      <div className="container mx-auto mr-[800px] text-center">
+    <section className="py-10 flex mr-[100px] justify-evenly items-center">
+      <div className="container mx-auto mr-[400px] text-center">
         <h1 className="text-5xl font-bold mb-4">Hey there,</h1>
         <h2 className="text-4xl font-bold mb-4">
           I am <span className="text-pink-300">Mwaniki Tifany</span>
@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
           My Resume
         </button>
       </div>
-      <div className="relative w-[400px] h-[500px] mr-20">
+      <div className="relative w-[900px] h-[500px] mr-20">
         <img
           src={images[currentImage]}
           alt={`Slide ${currentImage + 1}`}
