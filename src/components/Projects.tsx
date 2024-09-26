@@ -8,7 +8,7 @@ const projects = [
       techStack: ["React.js", "Node.js", "Express", "MongoDB"],
       liveLink: "",
       githubLink: "https://github.com/RivoltaAlpha/CyberStatic",
-      imageSrc: "/path-to-image/cyberstatic.png"
+      imageSrc: "/images/cyber.png"
     },
     {
       title: "CodeWorld Frontend",
@@ -16,7 +16,7 @@ const projects = [
       techStack: ["React.js", "Node.js", "Express", "TailwindCSS"],
       liveLink: "",
       githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
-      imageSrc: "/path-to-image/codeworld.png"
+      imageSrc: "/images/cyber.png"
     },
     {
       title: "AniRent",
@@ -24,7 +24,7 @@ const projects = [
       techStack: ["React.js", "TailwindCSS", "Redux", "TypeScript"],
       liveLink: "",
       githubLink: "https://github.com/RivoltaAlpha/vms-frontend",
-      imageSrc: "/path-to-image/vms-frontend.png"
+      imageSrc: "/images/anirent.png"
     },
     {
       title: "SurgeProcure",
@@ -32,7 +32,7 @@ const projects = [
       techStack: ["React.js", "Node.js", "Express", "MongoDB"],
       liveLink: "https://www.surgeprocure.co.ke/",
       githubLink: "",
-      imageSrc: "/path-to-image/surgeprocure.png"
+      imageSrc: "/images/surge.png"
     },
     {
       title: "Computer Society of Kirinyaga",
@@ -40,7 +40,7 @@ const projects = [
       techStack: ["React.js", "TailwindCSS", "Node.js", "Netlify"],
       liveLink: "https://computersocietyofkirinyaga.tech/",
       githubLink: "",
-      imageSrc: "/path-to-image/computersocietyofkirinyaga.png"
+      imageSrc: "/images/csk.png"
     },
     {
         title: 'Restaurant API',
@@ -49,8 +49,8 @@ const projects = [
         techStack: ['Node.js', 'Hono.js', 'Postgres', 'Drizzle', 'Azure'],
         liveLink: '#',
         githubLink: '#',
-        imageSrc: '/path-to-image/restaurant-api.png',
-      }
+        imageSrc: "/images/cyber.png"
+    }
   ];
   
 
