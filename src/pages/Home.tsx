@@ -1,5 +1,5 @@
 import { About } from "../components/About";
-import { Certifications } from "../components/Certifications";
+// import { Certifications } from "../components/Certifications";
 import { CommunityEngagement } from "../components/CommunityEngagement";
 import ContactSection from "../components/Contact";
 import { Education } from "../components/Education";
@@ -19,7 +19,7 @@ const Portfolio: React.FC = () => {
           <Education />
           <Experience />
           <ProjectList />
-          <Certifications />
+          {/* <Certifications /> */}
           <CommunityEngagement />
           <ContactSection />
         </main>
