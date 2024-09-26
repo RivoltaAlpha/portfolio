@@ -3,7 +3,15 @@ export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],  theme: {
-    extend: {},
+    extend: {
+      colors: {
+        teal: {
+          500: '#006699',
+          600: '#005580',
+          700: '#004466',
+        },
+      },
+    },
   },
   plugins: [],
 }
