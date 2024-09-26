@@ -7,6 +7,7 @@ import { Experience } from "../components/Experience";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
+import ProjectList from "../components/Projects";
 
 const Portfolio: React.FC = () => {
     return (
@@ -17,6 +18,7 @@ const Portfolio: React.FC = () => {
           <About />
           <Education />
           <Experience />
+          <ProjectList />
           <Certifications />
           <CommunityEngagement />
           <ContactSection />
