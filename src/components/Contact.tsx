@@ -39,7 +39,7 @@ const ContactSection: React.FC = () => {
               message: '',
             });
           },
-          (error) => {
+          () => {
             toast.error('Failed to send message. Please try again later.', {
               position: "top-right",
               autoClose: 5000,
