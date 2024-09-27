@@ -1,6 +1,29 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'sonner';
 
 const ContactSection: React.FC = () => {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (form.current) {
+      emailjs
+        .sendForm('service_fqokqqs', 'template_cbmiske', form.current, 'otPYqnlaikdWHDuX_')
+        .then(
+          (result) => {
+            console.log('Email successfully sent:', result.text);
+            toast('Message sent successfully!');
+          },
+          (error) => {
+            console.error('Error sending email:', error.text);
+            toast('Failed to send message, please try again.');
+          }
+        );
+    }
+  };
+
   return (
     <section className="bg-gray-800 text-white py-10">
       <div className="container mx-auto px-6">
@@ -43,10 +66,11 @@ const ContactSection: React.FC = () => {
           {/* Right Side: Contact Form */}
           <div className="md:w-2/3 bg-gray-900 p-6 rounded-lg shadow-lg mt-8 md:mt-0">
             <h3 className="text-teal-500 font-semibold text-lg mb-6">Reach Out!</h3>
-            <form className="space-y-4">
+            <form ref={form} onSubmit={sendEmail} className="space-y-4">
               <div>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Full Name"
                   className="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
@@ -54,6 +78,7 @@ const ContactSection: React.FC = () => {
               <div>
                 <input
                   type="email"
+                  name="email"
                   placeholder="Email Address"
                   className="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
@@ -61,12 +86,14 @@ const ContactSection: React.FC = () => {
               <div>
                 <input
                   type="text"
+                  name="subject"
                   placeholder="Subject"
                   className="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
               </div>
               <div>
                 <textarea
+                  name="message"
                   placeholder="Message"
                   rows={5}
                   className="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
