@@ -5,18 +5,18 @@ const projects = [
     {
       title: "Cyber Eyes Networks",
       description: "A web application dedicated to showcasing cybersecurity content and resources. It offers various tools and techniques related to cybersecurity education.",
-      techStack: ["React.js", "Node.js", "Express", "MongoDB"],
-      liveLink: "",
+      techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
+      liveLink: "https://cybereyesnetworks.co.ke/",
       githubLink: "https://github.com/RivoltaAlpha/CyberStatic",
       imageSrc: "/images/cyber.png"
     },
     {
       title: "CodeWorld Frontend",
-      description: "The frontend of CodeWorld, a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless development environment.",
-      techStack: ["React.js", "Node.js", "Express", "TailwindCSS"],
+      description: "The frontend of CodeWorld, a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless environment.",
+      techStack: ["React.js", "Node.js", "Hono", "TailwindCSS"],
       liveLink: "",
       githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
-      imageSrc: "/images/cyber.png"
+      imageSrc: "/images/code.png"
     },
     {
       title: "AniRent",
@@ -28,28 +28,27 @@ const projects = [
     },
     {
       title: "SurgeProcure",
-      description: "An e-procurement platform built to streamline the procurement process for organizations, ensuring efficiency and transparency.",
-      techStack: ["React.js", "Node.js", "Express", "MongoDB"],
+      description: "Collaborated on a e-procurement platform built to streamline the procurement process for organizations, ensuring efficiency and transparency.",
+      techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
       liveLink: "https://www.surgeprocure.co.ke/",
-      githubLink: "",
+      githubLink: "https://github.com/deniswachira/surgeproc-ui",
       imageSrc: "/images/surge.png"
     },
     {
       title: "Computer Society of Kirinyaga",
       description: "The official website of the Computer Society of Kirinyaga, dedicated to promoting technology-related events, resources, and communities in Kirinyaga.",
-      techStack: ["React.js", "TailwindCSS", "Node.js", "Netlify"],
+      techStack: ["React.js", "TailwindCSS", "Node.js", "Drizzle"],
       liveLink: "https://computersocietyofkirinyaga.tech/",
       githubLink: "",
       imageSrc: "/images/csk.png"
     },
     {
         title: 'Restaurant API',
-        description:
-          'The restaurant API uses cutting-edge technologies to develop a scalable application. The API is RESTful and returns data in JSON format.',
+        description:'The restaurant API uses cutting-edge technologies to develop a scalable application. This is a restaurant system management API. The API is RESTful and returns data in JSON format. ',
         techStack: ['Node.js', 'Hono.js', 'Postgres', 'Drizzle', 'Azure'],
-        liveLink: '#',
-        githubLink: '#',
-        imageSrc: "/images/cyber.png"
+        liveLink: 'https://restaurantsapi1.azurewebsites.net/',
+        githubLink: 'https://github.com/RivoltaAlpha/Restaurant_API',
+        imageSrc: "/images/restaurant.png"
     }
   ];
   
