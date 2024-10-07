@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Experience: React.FC = () => (
-  <section className="py-20 bg-gray-900">
+  <section id='experience' className="py-20 bg-gray-900">
     <div className="container mx-auto">
       <h2 className="text-3xl font-bold text-center mb-12 text-blue-500">Experience</h2>
       
@@ -9,7 +9,7 @@ export const Experience: React.FC = () => (
         {/* Card 1: Teach2Give */}
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
           <img 
-            src="/images/cyber.png"
+            src="/images/t2g.jpeg"
             alt="Teach2Give Logo" 
             className="w-16 h-16 object-contain rounded-full" 
           />
@@ -25,7 +25,7 @@ export const Experience: React.FC = () => (
         {/* Card 2: ICTA */}
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-300 flex items-center space-x-4">
           <img 
-            src="/images/cyber.png" 
+            src="/images/icta.jpeg" 
             alt="ICTA Logo" 
             className="w-16 h-16 object-contain rounded-full" 
           />
@@ -41,7 +41,7 @@ export const Experience: React.FC = () => (
         {/* Card 3: CSK Leader */}
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-300 flex items-center space-x-4">
           <img 
-            src="/images/cyber.png" 
+            src="/images/csk.jpeg" 
             alt="CSK Logo" 
             className="w-16 h-16 object-contain rounded-full" 
           />
@@ -57,7 +57,7 @@ export const Experience: React.FC = () => (
         {/* Card 4: Microsoft Learn Student Ambassador */}
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
           <img 
-            src="/images/cyber.png"
+            src="/images/mlsa.jpeg"
             alt="MLSA Logo" 
             className="w-16 h-16 object-contain rounded-full" 
           />
@@ -73,7 +73,7 @@ export const Experience: React.FC = () => (
         {/* Card 5: Machine Learning Lead */}
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
           <img 
-            src="/images/cyber.png"
+            src="/images/mll.jpeg"
             alt="Machine Learning Logo" 
             className="w-16 h-16 object-contain rounded-full" 
           />
