@@ -61,7 +61,7 @@ const ContactSection: React.FC = () => {
       });
     };
     return (
-      <section className="bg-gray-800 text-white py-10">
+      <section id='contact' className="bg-gray-800 text-white py-10">
         <ToastContainer />
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-semibold text-blue-700 text-center mb-8">
