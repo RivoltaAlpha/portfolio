@@ -1,5 +1,5 @@
 export const CommunityEngagement: React.FC = () => (
-  <section className="py-20 bg-gray-900">
+  <section id="community" className="py-20 bg-gray-900">
     <div className="container mx-auto px-6">
       <h2 className="text-4xl font-bold text-center text-blue-500 mb-12">Community Engagement</h2>
       
