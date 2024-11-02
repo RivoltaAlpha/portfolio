@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
+  "/images/DSC_2053.JPG",
   "https://i.postimg.cc/fbJ7t0cd/IMG-7299.jpg",
+  "/images/DSC_1797.JPG",
+  "/images/DSC_0904.JPG",
   "https://i.postimg.cc/XYDdb7RY/IMG-7384.jpg",
-  "https://i.postimg.cc/Y0fDnmy9/IMG-7564.jpg"
 ];
 
 export const Hero: React.FC = () => {
