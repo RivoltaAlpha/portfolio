@@ -5,6 +5,7 @@ import {
   FaDocker, FaGitAlt, FaDatabase, FaAws
 } from 'react-icons/fa';
 import { SiTypescript, SiSass, SiDjango, SiFlask, SiMysql, SiPostgresql, SiMicrosoftazure, SiFirebase } from 'react-icons/si';
+import { NavLink } from 'react-router-dom';
 
 const skillsData = [
   {
@@ -82,6 +83,12 @@ const SkillsPage: React.FC = () => {
               </div>
             ))}
           </div>
+        </div>
+        {/* Request Service Button */}
+        <div className="flex justify-center">
+          <NavLink to={"/services"} className={"bg-teal-600 text-white mt-10 py-3 px-8 rounded-full shadow-md hover:bg-teal-700 transition duration-300 ease-in-out"} >
+            Request a Service
+          </NavLink>
         </div>
       </section>
     </div>
