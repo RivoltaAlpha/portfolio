@@ -10,6 +10,7 @@ export const CommunityEngagement: React.FC = () => (
         <ul className="list-disc list-inside text-left mx-auto max-w-md space-y-3">
           <li className="text-teal-400">Microsoft Learn Student Ambassador (MLSA)</li>
           <li className="text-teal-400">Computer Society of Kirinyaga (CSK) - Secretary General</li>
+          <li className="text-teal-400">Kenya Data Platform User Group - Event Organizer</li>
           <li className="text-teal-400">AI & ML Track Lead at CSK</li>
         </ul>
       </div>
