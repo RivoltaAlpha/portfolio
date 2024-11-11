@@ -1,53 +1,16 @@
-import React from 'react';
-import { FaCode, FaChartBar, FaRobot, FaProjectDiagram, FaCloud, FaChalkboardTeacher, FaUserFriends, FaBullhorn } from 'react-icons/fa';
+import React, { useState } from 'react';
 import { MiniHeader } from '../components/Mini-Header';
-
-
-const servicesData = [
-  {
-    icon: <FaCode className="text-teal-500 text-4xl justify-center" />,
-    title: 'Web Development',
-    description: 'Building responsive and interactive websites using modern technologies.',
-  },
-  {
-    icon: <FaChartBar className="text-teal-500 text-4xl" />,
-    title: 'Data Analysis',
-    description: 'Extracting insights and building data-driven solutions for informed decisions.',
-  },
-  {
-    icon: <FaRobot className="text-teal-500 text-4xl" />,
-    title: 'AI and Machine Learning Engineering',
-    description: 'Creating intelligent systems that learn and adapt to user needs.',
-  },
-  {
-    icon: <FaProjectDiagram className="text-teal-500 text-4xl" />,
-    title: 'Product Management',
-    description: 'Driving product vision and strategy for successful project delivery.',
-  },
-  {
-    icon: <FaCloud className="text-teal-500 text-4xl" />,
-    title: 'Cloud Services',
-    description: 'Leveraging cloud infrastructure to scale and secure your applications.',
-  },
-  {
-    icon: <FaChalkboardTeacher className="text-teal-500 text-4xl" />,
-    title: 'Consulting',
-    description: 'Providing expertise and guidance to help you achieve your tech goals.',
-  },
-  {
-    icon: <FaUserFriends className="text-teal-500 text-4xl" />,
-    title: 'Mentorship & Coaching',
-    description: 'Guiding individuals and teams to reach their professional potential.',
-  },
-  {
-    icon: <FaBullhorn className="text-teal-500 text-4xl" />,
-    title: 'Social Media Management',
-    description: 'Creating and managing content strategies to enhance brand presence.',
-  },
-];
+import ServicesData from '../data/servicesData';
+import ContactSection from '../components/Contact';
 
 
 const ServicesPage: React.FC = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-900 text-white  ">
       <MiniHeader />
@@ -55,7 +18,7 @@ const ServicesPage: React.FC = () => {
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-10">My Services</h2>
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-            {servicesData.map((service, index) => (
+            {ServicesData.map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
                 <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-100">
                   {service.icon}
@@ -67,11 +30,31 @@ const ServicesPage: React.FC = () => {
           </div>
         </div>
       </section>
-      <section>
-        <button className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
-          Request Service
+
+      {/* Request Service Button */}
+      <section className="flex justify-center">
+        <button
+          onClick={openModal}
+          className="bg-teal-600 text-white py-3 px-8 rounded-full shadow-md hover:bg-teal-700 transition duration-300 ease-in-out">
+          Request a Service
         </button>
       </section>
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="rounded-lg shadow-lg relative w-[900px] ">
+            {/* Close Button */}
+            <button
+              onClick={closeModal}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+              &times;
+            </button>
+            <ContactSection />
+          </div>
+        </div>
+      )}
+
     </div>
   );
 };
