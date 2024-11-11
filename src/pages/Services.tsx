@@ -29,15 +29,15 @@ const ServicesPage: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
 
-      {/* Request Service Button */}
-      <section className="flex justify-center">
-        <button
-          onClick={openModal}
-          className="bg-teal-600 text-white py-3 px-8 rounded-full shadow-md hover:bg-teal-700 transition duration-300 ease-in-out">
-          Request a Service
-        </button>
+        {/* Request Service Button */}
+        <div className="flex justify-center">
+          <button
+            onClick={openModal}
+            className="bg-teal-600 text-white mt-10 py-3 px-8 rounded-full shadow-md hover:bg-teal-700 transition duration-300 ease-in-out">
+            Request a Service
+          </button>
+        </div>
       </section>
 
       {/* Modal */}
@@ -47,7 +47,7 @@ const ServicesPage: React.FC = () => {
             {/* Close Button */}
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+              className="absolute top-2 right-2 text-white hover:text-gray-700">
               &times;
             </button>
             <ContactSection />
