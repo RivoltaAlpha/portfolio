@@ -6,7 +6,9 @@ const images = [
   "https://i.postimg.cc/fbJ7t0cd/IMG-7299.jpg",
   "/images/DSC_1797.JPG",
   "/images/DSC_0904.JPG",
-  "https://i.postimg.cc/XYDdb7RY/IMG-7384.jpg"
+  "/images/IMG_7337.JPG",
+  "/images/IMG_7384.JPG",
+  "/images/techladies.jpg"
 ];
 
 export const Hero: React.FC = () => {
