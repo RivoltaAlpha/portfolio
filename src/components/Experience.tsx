@@ -33,7 +33,7 @@ export const Experience: React.FC = () => (
             <h3 className="text-xl font-semibold mb-2 text-teal-500">Software Development Trainee at ICTA (ICT Authority of Kenya)</h3>
             <p className="mb-2 text-sm text-gray-400">May 2023 - August 2023</p>
             <p>
-              I attended a software training internship where I learned how to develop full-stack applications using Laravel (PHP framework) and SQL for the database.
+              I attended a software training internship where I learned how to develop full-stack applications using Laravel (a PHP framework) and SQL for the database.
             </p>
           </div>
         </div>
@@ -46,10 +46,12 @@ export const Experience: React.FC = () => (
             className="w-16 h-16 object-contain rounded-full" 
           />
           <div>
-            <h3 className="text-xl font-semibold mb-2 text-teal-500">Leader at Computer Society of Kenya (CSK)</h3>
+            <h3 className="text-xl font-semibold mb-2 text-teal-500">Leader at Computer Society of Kirinyaga (CSK)</h3>
             <p className="mb-2 text-sm text-gray-400">September 2022 - Present</p>
             <p>
-              I organized events in the community as a web mentor and currently serve as Secretary General. I also lead the KyU Tech Ladies initiative, a women-in-tech community inside CSK.
+               I currently serve as Secretary General, the Machine Learning and AI track lead and a web mentor where I organize events in the community to 
+               guide students and enthusiasts in learning and applying machine learning techniques as well as well development skills.
+               I also lead the KyU Tech Ladies initiative, a women-in-tech community inside CSK.
             </p>
           </div>
         </div>
@@ -66,22 +68,6 @@ export const Experience: React.FC = () => (
             <p className="mb-2 text-sm text-gray-400">January 2023 - Present</p>
             <p>
               As a Beta MLSA, I mentor students on Azure Cloud, AI, Web Development, and Machine Learning. I organize events and workshops to help students leverage technology for impact.
-            </p>
-          </div>
-        </div>
-
-        {/* Card 5: Machine Learning Lead */}
-        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
-          <img 
-            src="/images/mll.jpeg"
-            alt="Machine Learning Logo" 
-            className="w-16 h-16 object-contain rounded-full" 
-          />
-          <div>
-            <h3 className="text-xl font-semibold mb-2 text-teal-500">Machine Learning Lead</h3>
-            <p className="mb-2 text-sm text-gray-400">September 2024 - Present</p>
-            <p>
-              I am the Machine Learning and AI track lead in the Computer Society of Kirinyaga, where I guide students and enthusiasts in learning and applying machine learning techniques.
             </p>
           </div>
         </div>
