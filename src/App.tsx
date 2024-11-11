@@ -1,8 +1,8 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Portfolio from './pages/Home'
-import SkillsPage from './pages/skills'
-import ServicesPage from './pages/services';
+import SkillsPage from './pages/Skills'
+import ServicesPage from './pages/Services';
 
 function App() {
 
