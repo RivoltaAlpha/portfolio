@@ -6,9 +6,9 @@ export const Footer: React.FC = () => (
       <div className="container mx-auto flex justify-between items-center">
         <div>mwanikitiffany&copy; 2024 . All rights reserved.</div>
         <div className="flex space-x-4">
-          <a href="https://github.com/RivoltaAlpha" aria-label="GitHub"><Github /></a>
-          <a href="https://www.linkedin.com/in/mwaniki-tifany" aria-label="LinkedIn"><Linkedin /></a>
-          <a href="https://x.com/RivoltaAlpha" aria-label="Twitter"><Twitter /></a>
+          <a href="https://github.com/RivoltaAlpha" aria-label="GitHub" target='blank'><Github /></a>
+          <a href="https://www.linkedin.com/in/mwaniki-tifany" aria-label="LinkedIn" target='blank'><Linkedin /></a>
+          <a href="https://x.com/RivoltaAlpha" aria-label="Twitter" target='blank'><Twitter /></a>
         </div>
       </div>
     </footer>
