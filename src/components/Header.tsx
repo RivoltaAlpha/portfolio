@@ -1,16 +1,76 @@
-export const Header: React.FC = () => (
-  <header className="bg-gray-900 text-white p-4">
-    <nav className="container mx-auto flex justify-between items-center">
-      <div className="text-2xl text-teal-500 font-bold">Mwaniki Tifany</div>
-      <div className="flex space-x-4"> 
-        <a href="#about" className="text-white hover:bg-gray-950 p-2 px-4 rounded">About</a>
-        <a href="#experience" className="text-white hover:bg-gray-950 p-2 px-4 rounded">Experience</a>
-        <a href="/skills" className="text-white hover:bg-gray-950 p-2 px-4 rounded">Skills</a>
-        <a href="/services" className="text-white hover:bg-gray-950 p-2 px-4 rounded">Services</a>
-        <a href="#projects" className="text-white hover:bg-gray-950 p-2 px-4 rounded">Projects</a>
-        <a href="#community" className="text-white hover:bg-gray-950 p-2 px-4 rounded">Community</a>
-        <a href="#contact" className="text-white hover:bg-gray-950 p-2 px-4 rounded">Contact me</a>
-      </div>
-    </nav>
-  </header>
-);
+import React, { useState } from 'react';
+import { Menu, X } from 'lucide-react';
+
+export const Header: React.FC = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
+  return (
+    <header className="bg-gray-900 text-white p-6">
+      <nav className="container mx-auto flex justify-between items-center">
+        <div className="text-2xl text-white font-bold">Mwaniki Tifany</div>
+
+        {/* Hamburger Menu for Small Screens */}
+        <button 
+          className="md:hidden text-white focus:outline-none"
+          onClick={toggleMenu}
+        >
+          {menuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
+
+        {/* Links */}
+        <div
+          className={`flex flex-col md:flex-row md:space-x-6 absolute md:relative left-0 right-0 bg-gray-900 md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out ${
+            menuOpen ? 'opacity-100 visible' : 'opacity-0 invisible md:visible md:opacity-100'
+          }`}
+        >
+          <a
+            href="#about"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            About
+          </a>
+          <a
+            href="#experience"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            Experience
+          </a>
+          <a
+            href="/skills"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            Skills
+          </a>
+          <a
+            href="/services"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            Services
+          </a>
+          <a
+            href="#projects"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            Projects
+          </a>
+          <a
+            href="#community"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            Community
+          </a>
+          <a
+            href="#contact"
+            className="text-white hover:bg-cards py-2 px-4 rounded text-center md:text-left"
+          >
+            Contact me
+          </a>
+        </div>
+      </nav>
+    </header>
+  );
+};
