@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
         <h2 className="text-4xl md:text-8xl font-bold mb-4">
           I'm <span className="text-cards">Mwaniki Tifany Nyawira</span>
         </h2>
-        <p className="mb-8 text-gray-400 text-sm md:text-base">
+        <p className="mb-10 mt-10 text-gray-400 text-sm md:text-base">
           A Software Engineer and a Data Analyst.
         </p>
         <a
@@ -36,14 +36,14 @@ export const Hero: React.FC = () => {
           download="TIFANY_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-purple-600 hover:bg-purple-300 hover:text-black font-bold py-3 px-6 rounded-lg text-sm md:text-base">
+          className="bg-purple-800 hover:bg-purple-300 hover:text-black font-bold py-3 px-6 rounded-lg text-sm md:text-base">
           My Resume
         </a>
       </div>
 
 
       {/* Image Carousel Section */}
-      <div className="relative w-full md:w-[700px] lg:w-[1000px] h-[300px] md:h-[500px]">
+      <div className="relative w-full md:w-[500px] lg:w-[800px] h-[300px] md:h-[500px]">
         <img
           src={images[currentImage]}
           alt={`Slide ${currentImage + 1}`}
