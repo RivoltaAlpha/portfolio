@@ -11,8 +11,14 @@ export const Header: React.FC = () => {
   return (
     <header className="bg-gray-900 text-white p-6">
       <nav className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl text-white font-bold">Mwaniki Tifany</div>
-
+      <div className="flex items-center space-x-2">
+        <img
+          src="/images/DSC_2053.JPG" // Replace with your image path
+          alt="Mwaniki Tifany Icon"
+          className="w-8 h-8 rounded-full"
+        />
+        <span className="text-2xl text-gray-300 font-bold">My Portfolio</span>
+      </div>
         {/* Hamburger Menu for Small Screens */}
         <button 
           className="md:hidden text-white focus:outline-none"
