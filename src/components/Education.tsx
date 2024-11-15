@@ -5,7 +5,7 @@ export const Education: React.FC = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center">
         {/* Card for Kirinyaga University */}
         <div className=" bg-gray-800 shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
-        <img src="kyu.jpeg"alt= "Kirinyaga University"className="rounded-md mb-4 h-52 w-full"/>
+        <img src="https://th.bing.com/th/id/OIP.tBakW_oDRdDqR0JroWxjNgHaEM?w=315&h=180&c=7&r=0&o=5&pid=1.7"alt= "Kirinyaga University"className="rounded-md mb-4 h-52 w-full"/>
           <h3 className="text-xl font-semibold mb-4">Kirinyaga University</h3>
           <p className="text-whitw">
             Bachelor's Degree in Computer Science. Focused on software engineering, data structures, and web development.
