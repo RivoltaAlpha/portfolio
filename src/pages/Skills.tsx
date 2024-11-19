@@ -1,10 +1,9 @@
 import React from 'react';
 import { MiniHeader } from '../components/Mini-Header';
-import {
-  FaJs, FaPython, FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaNodeJs,
-  FaDocker, FaGitAlt, FaDatabase, FaAws
-} from 'react-icons/fa';
-import { SiTypescript, SiSass, SiDjango, SiFlask, SiMysql, SiPostgresql, SiMicrosoftazure, SiFirebase } from 'react-icons/si';
+import { FaJs, FaPython, FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaNodeJs, FaGitAlt, FaDocker, FaDatabase, FaLinux } from 'react-icons/fa';
+import { SiTypescript, SiSass, SiDjango, SiFlask, SiMicrosoftazure, SiMysql, SiPostgresql, SiPandas, SiNumpy, SiScipy, SiScikitlearn, SiTensorflow, SiPytorch, SiKeras } from 'react-icons/si';
+import { SiPlotly, SiJupyter } from 'react-icons/si';
+
 import { NavLink } from 'react-router-dom';
 
 const skillsData = [
@@ -18,19 +17,19 @@ const skillsData = [
   },
   {
     category: 'Tools & Technologies',
-    skills: ['Git', 'Docker', 'Bash', 'Azure'],
+    skills: ['Git', 'Docker', 'Bash', 'Azure', 'Linux'],
   },
   {
     category: 'Databases',
-    skills: ['MySQL', 'Cosmos DB', 'PostgreSQL'],
+    skills: ['MySQL', 'Cosmos DB', 'PostgreSQL'], 
   },
   {
     category: 'Data Science',
-    skills: ['React', 'Next.js', 'Node.js', 'Express'],
+    skills: ['Pandas', 'Matplotlib', 'Python', 'Jupyter Notebook', 'Numpy', 'Scipy', ],
   },
   {
     category: 'Machine Learning',
-    skills: ['Git', 'Docker', 'Firebase', 'AWS'],
+    skills: ['Scikit-Learn', 'Azure Machine Learning', 'Tensorflow', 'PyTorch', 'Keras'],
   },
 ];
 
@@ -39,24 +38,35 @@ const skillIcons: Record<string, JSX.Element> = {
   JavaScript: <FaJs className="text-yellow-500 text-2xl mr-2" />,
   Python: <FaPython className="text-blue-500 text-2xl mr-2" />,
   TypeScript: <SiTypescript className="text-blue-600 text-2xl mr-2" />,
-  Scss: <SiSass className="text-pink-500 text-2xl mr-2" />,
+  SCSS: <SiSass className="text-pink-500 text-2xl mr-2" />,
   HTML: <FaHtml5 className="text-orange-500 text-2xl mr-2" />,
   CSS: <FaCss3Alt className="text-blue-500 text-2xl mr-2" />,
   React: <FaReact className="text-blue-400 text-2xl mr-2" />,
-  'React.js': <FaReact className="text-blue-400 text-2xl mr-2" />,
+  "React.js": <FaReact className="text-blue-400 text-2xl mr-2" />,
   Laravel: <FaLaravel className="text-red-600 text-2xl mr-2" />,
-  'Node.js': <FaNodeJs className="text-green-500 text-2xl mr-2" />,
+  "Node.js": <FaNodeJs className="text-green-500 text-2xl mr-2" />,
   Django: <SiDjango className="text-green-600 text-2xl mr-2" />,
   Flask: <SiFlask className="text-gray-500 text-2xl mr-2" />,
   Git: <FaGitAlt className="text-orange-600 text-2xl mr-2" />,
   Docker: <FaDocker className="text-blue-600 text-2xl mr-2" />,
   Azure: <SiMicrosoftazure className="text-blue-500 text-2xl mr-2" />,
-  'MySQL': <SiMysql className="text-blue-700 text-2xl mr-2" />,
-  'Cosmos DB': <FaDatabase className="text-teal-500 text-2xl mr-2" />,
+  Linux: <FaLinux className="text-blue-500 text-2xl mr-2" />,
+  MySQL: <SiMysql className="text-blue-700 text-2xl mr-2" />,
+  "Cosmos DB": <FaDatabase className="text-teal-500 text-2xl mr-2" />,
   PostgreSQL: <SiPostgresql className="text-blue-600 text-2xl mr-2" />,
-  Firebase: <SiFirebase className="text-yellow-500 text-2xl mr-2" />,
-  AWS: <FaAws className="text-orange-500 text-2xl mr-2" />,
+  Pandas: <SiPandas className="text-blue-500 text-2xl mr-2" />,
+  Matplotlib: <SiPlotly className="text-blue-500 text-2xl mr-2" />,
+  "Jupyter Notebook": <SiJupyter className="text-orange-500 text-2xl mr-2" />,
+  Numpy: <SiNumpy className="text-blue-500 text-2xl mr-2" />,
+  Scipy: <SiScipy className="text-blue-500 text-2xl mr-2" />,
+  Seaborn: <FaPython className="text-blue-500 text-2xl mr-2" />, 
+  "Scikit-Learn": <SiScikitlearn className="text-blue-500 text-2xl mr-2" />,
+  "Azure Machine Learning": <SiMicrosoftazure className="text-blue-500 text-2xl mr-2" />,
+  TensorFlow: <SiTensorflow className="text-orange-500 text-2xl mr-2" />,
+  PyTorch: <SiPytorch className="text-red-500 text-2xl mr-2" />,
+  Keras: <SiKeras className="text-red-600 text-2xl mr-2" />,
 };
+
 
 const SkillsPage: React.FC = () => {
   return (
