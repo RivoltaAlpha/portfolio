@@ -1,6 +1,6 @@
 import React from 'react';
 import { MiniHeader } from '../components/Mini-Header';
-import { FaJs, FaPython, FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaNodeJs, FaGitAlt, FaDocker, FaDatabase, FaLinux } from 'react-icons/fa';
+import { FaJs, FaPython, FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaNodeJs, FaGitAlt, FaDocker, FaDatabase, FaLinux, FaPhp } from 'react-icons/fa';
 import { SiTypescript, SiSass, SiDjango, SiFlask, SiMicrosoftazure, SiMysql, SiPostgresql, SiPandas, SiNumpy, SiScipy, SiScikitlearn, SiTensorflow, SiPytorch, SiKeras } from 'react-icons/si';
 import { SiPlotly, SiJupyter } from 'react-icons/si';
 
@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 const skillsData = [
   {
     category: 'Programming Languages',
-    skills: ['JavaScript', 'Python', 'TypeScript', 'Scss', 'HTML', 'CSS'],
+    skills: ['JavaScript', 'Python', 'TypeScript','PHP', 'Scss', 'HTML', 'CSS'],
   },
   {
     category: 'Frameworks & Libraries',
@@ -21,7 +21,7 @@ const skillsData = [
   },
   {
     category: 'Databases',
-    skills: ['MySQL', 'Cosmos DB', 'PostgreSQL'], 
+    skills: ['SQL','MySQL', 'Cosmos DB', 'PostgreSQL'], 
   },
   {
     category: 'Data Science',
@@ -38,6 +38,7 @@ const skillIcons: Record<string, JSX.Element> = {
   JavaScript: <FaJs className="text-yellow-500 text-2xl mr-2" />,
   Python: <FaPython className="text-blue-500 text-2xl mr-2" />,
   TypeScript: <SiTypescript className="text-blue-600 text-2xl mr-2" />,
+  PHP: <FaPhp className="text-blue-600 text-2xl mr-2" />,
   SCSS: <SiSass className="text-pink-500 text-2xl mr-2" />,
   HTML: <FaHtml5 className="text-orange-500 text-2xl mr-2" />,
   CSS: <FaCss3Alt className="text-blue-500 text-2xl mr-2" />,
@@ -51,6 +52,7 @@ const skillIcons: Record<string, JSX.Element> = {
   Docker: <FaDocker className="text-blue-600 text-2xl mr-2" />,
   Azure: <SiMicrosoftazure className="text-blue-500 text-2xl mr-2" />,
   Linux: <FaLinux className="text-blue-500 text-2xl mr-2" />,
+  SQL: <FaDatabase className="text-blue-500 text-2xl mr-2" />,
   MySQL: <SiMysql className="text-blue-700 text-2xl mr-2" />,
   "Cosmos DB": <FaDatabase className="text-teal-500 text-2xl mr-2" />,
   PostgreSQL: <SiPostgresql className="text-blue-600 text-2xl mr-2" />,
