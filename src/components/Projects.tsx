@@ -14,7 +14,7 @@ const projects = [
     title: "CodeWorld Frontend",
     description: "The frontend of CodeWorld, a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless environment.",
     techStack: ["React.js", "Node.js", "Hono", "TailwindCSS"],
-    liveLink: "",
+    liveLink: "https://codeworld-frontend.vercel.app/",
     githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
     imageSrc: "/images/code.png"
   },
