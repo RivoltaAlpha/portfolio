@@ -14,7 +14,7 @@ const projects = [
     title: "CodeWorld Frontend",
     description: "The frontend of CodeWorld, a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless environment.",
     techStack: ["React.js", "Node.js", "Hono", "TailwindCSS"],
-    liveLink: "",
+    liveLink: "https://codeworld-frontend.vercel.app/",
     githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
     imageSrc: "/images/code.png"
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "AniRent",
     description: "Frontend for the Vehicle Management System, which allows users to manage vehicle rentals, including bookings, payments, and fleet management.",
     techStack: ["React.js", "TailwindCSS", "Redux", "TypeScript"],
-    liveLink: "",
+    liveLink: "https://ashy-mud-06186b40f.5.azurestaticapps.net/",
     githubLink: "https://github.com/RivoltaAlpha/vms-frontend",
     imageSrc: "/images/anirent.png"
   },
@@ -39,7 +39,7 @@ const projects = [
     description: "The official website of the Computer Society of Kirinyaga, dedicated to promoting technology-related events, resources, and communities in Kirinyaga.",
     techStack: ["React.js", "TailwindCSS", "Node.js", "Drizzle"],
     liveLink: "https://computersocietyofkirinyaga.tech/",
-    githubLink: "",
+    githubLink: "https://github.com/Computer-Society-Of-Kirinyaga/csk-frontend",
     imageSrc: "/images/csk.png"
   },
   {
