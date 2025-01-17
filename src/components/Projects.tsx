@@ -46,7 +46,7 @@ const projects = [
     title: 'Restaurant API',
     description: 'The restaurant API uses cutting-edge technologies to develop a scalable application. This is a restaurant system management API. The API is RESTful and returns data in JSON format. ',
     techStack: ['Node.js', 'Hono.js', 'Postgres', 'Drizzle', 'Azure'],
-    liveLink: 'https://restaurantsapi1.azurewebsites.net/',
+    liveLink: 'http://mwanikitiff.me/restaurant_frontpage/',
     githubLink: 'https://github.com/RivoltaAlpha/Restaurant_API',
     imageSrc: "/images/restaurant.png"
   }
