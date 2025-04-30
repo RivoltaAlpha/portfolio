@@ -3,24 +3,16 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: "Cyber Eyes Networks",
-    description: "A web application dedicated to showcasing cybersecurity content and resources. It offers various tools and techniques related to cybersecurity education.",
+    title: "CareerWiz",
+    description: "This Application uses Machine Learning, to develop a website that provides students with personalized career guidance based on their personal interests and academic performance, bridging the gap of lack of personalized guidance for students. (Website)",
     techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
-    liveLink: "https://cybereyesnetworks.co.ke/",
-    githubLink: "https://github.com/RivoltaAlpha/CyberStatic",
-    imageSrc: "/images/cyber.png"
-  },
-  {
-    title: "CodeWorld Frontend",
-    description: "The frontend of CodeWorld, a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless environment.",
-    techStack: ["React.js", "Node.js", "Hono", "TailwindCSS"],
-    liveLink: "https://codeworld-frontend.vercel.app/",
-    githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
-    imageSrc: "/images/code.png"
+    liveLink: "https://careerwiz-frontend.vercel.app/",
+    githubLink: "https://github.com/RivoltaAlpha/careerwiz-frontend",
+    imageSrc: "/images/careerwiz.png"
   },
   {
     title: "AniRent",
-    description: "Frontend for the Vehicle Management System, which allows users to manage vehicle rentals, including bookings, payments, and fleet management.",
+    description: "A Vehicle Management System application, which allows users to manage vehicle rentals, including bookings, payments, and fleet management.",
     techStack: ["React.js", "TailwindCSS", "Redux", "TypeScript"],
     liveLink: "https://ashy-mud-06186b40f.5.azurestaticapps.net/",
     githubLink: "https://github.com/RivoltaAlpha/vms-frontend",
@@ -36,20 +28,36 @@ const projects = [
   },
   {
     title: "Computer Society of Kirinyaga",
-    description: "The official website of the Computer Society of Kirinyaga, dedicated to promoting technology-related events, resources, and communities in Kirinyaga.",
+    description: "The official website of the Computer Society of Kirinyaga, dedicated to promoting technology-related events, sharing resources in Kirinyaga university Tech communities.",
     techStack: ["React.js", "TailwindCSS", "Node.js", "Drizzle"],
     liveLink: "https://computersocietyofkirinyaga.tech/",
     githubLink: "https://github.com/Computer-Society-Of-Kirinyaga/csk-frontend",
     imageSrc: "/images/csk.png"
   },
   {
-    title: 'Restaurant API',
-    description: 'The restaurant API uses cutting-edge technologies to develop a scalable application. This is a restaurant system management API. The API is RESTful and returns data in JSON format. ',
-    techStack: ['Node.js', 'Hono.js', 'Postgres', 'Drizzle', 'Azure'],
-    liveLink: 'http://mwanikitiff.me/restaurant_frontpage/',
-    githubLink: 'https://github.com/RivoltaAlpha/Restaurant_API',
-    imageSrc: "/images/restaurant.png"
-  }
+    title: "Cyber Eyes Networks",
+    description: "A web application dedicated to showcasing cybersecurity content and resources. It offers various tools and techniques related to cybersecurity education.",
+    techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
+    liveLink: "https://cybereyesnetworks.co.ke/",
+    githubLink: "https://github.com/RivoltaAlpha/CyberStatic",
+    imageSrc: "/images/cyber.png"
+  },
+  {
+    title: "CodeWorld",
+    description: "CodeWorld, is a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless environment.",
+    techStack: ["React.js", "Node.js", "Hono", "TailwindCSS"],
+    liveLink: "https://codeworld-frontend.vercel.app/",
+    githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
+    imageSrc: "/images/code.png"
+  },
+  // {
+  //   title: 'Restaurant API',
+  //   description: 'The restaurant API uses cutting-edge technologies to develop a scalable application. This is a restaurant system management API. The API is RESTful and returns data in JSON format. ',
+  //   techStack: ['Node.js', 'Hono.js', 'Postgres', 'Drizzle', 'Azure'],
+  //   liveLink: 'http://mwanikitiff.me/restaurant_frontpage/',
+  //   githubLink: 'https://github.com/RivoltaAlpha/Restaurant_API',
+  //   imageSrc: "/images/restaurant.png"
+  // }
 ];
 
 
