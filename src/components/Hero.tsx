@@ -50,16 +50,20 @@ export const Hero: React.FC = () => {
           className="w-full h-full object-cover rounded-lg"
         />
         <button
-          onClick={prevImage}
+          type='button'
+          title="Previous Image"
           className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+          onClick={prevImage}
         >
           <ChevronLeft size={24} />
-        </button>
         <button
-          onClick={nextImage}
-          className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+        type='button'
+        title="Next Image"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+        onClick={nextImage}
         >
           <ChevronRight size={24} />
+        </button>
         </button>
       </div>
     </div>
