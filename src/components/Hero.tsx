@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
         </p>
         <a
           href="/TIFANY_Resume.pdf"
-          download="TIFANY_Resume.pdf"
+          download="Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-purple-800 hover:bg-purple-300 hover:text-black font-bold py-3 px-6 rounded-lg text-sm md:text-base">
