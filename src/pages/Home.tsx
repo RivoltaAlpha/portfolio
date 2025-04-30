@@ -11,7 +11,7 @@ import ProjectList from "../components/Projects";
 
 const Portfolio: React.FC = () => {
     return (
-      <div className="min-h-screen flex flex-col bg-gray-900 text-white  ">
+      <div className="min-h-screen flex flex-col bg-gray-900 text-white mx-auto">
         <Header />
         <main className="flex-grow">
           <Hero />
