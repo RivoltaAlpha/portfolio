@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { MiniHeader } from '../components/Mini-Header';
 import ServicesData from '../data/servicesData';
 import ContactSection from '../components/Contact';
+import { ServicesSection } from '../components/ServicesSection';
+import { PricingSection } from '../components/PricingSection';
+import { Footer } from '../components/Footer';
 
 
 const ServicesPage: React.FC = () => {
@@ -14,7 +17,8 @@ const ServicesPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-900 text-white  ">
       <MiniHeader />
-      <section className="bg-gray-900 py-20">
+        <ServicesSection />
+      <section id='services' className="bg-gray-900 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-10">My Services</h2>
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
@@ -30,6 +34,9 @@ const ServicesPage: React.FC = () => {
           </div>
         </div>
 
+        <div id='pricing'>
+            <PricingSection/>
+        </div>
         {/* Request Service Button */}
         <div className="flex justify-center">
           <button
@@ -42,19 +49,19 @@ const ServicesPage: React.FC = () => {
 
       {/* Modal */}
       {isModalOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="rounded-lg shadow-lg relative w-[900px] ">
+        <div id='contact' className="fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="rounded-lg shadow-lg relative">
             {/* Close Button */}
             <button
               onClick={closeModal}
               className="absolute top-2 right-2 text-white hover:text-gray-700">
               &times;
             </button>
-            <ContactSection />
           </div>
+            <ContactSection />
         </div>
       )}
-
+  <Footer />
     </div>
   );
 };
