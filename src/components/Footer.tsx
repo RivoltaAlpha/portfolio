@@ -1,14 +1,11 @@
-import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
-import React from 'react'
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { Facebook, Twitter, Github, Instagram, Linkedin } from 'lucide-react'
 export function Footer() {
   return (
     <footer className="bg-[#0d1424] text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">DevSolutions</h3>
+            <h3 className="text-xl font-bold mb-4">Mwaniki Tiffany</h3>
             <p className="text-gray-400">
               Professional development services for businesses of all sizes.
             </p>
@@ -41,7 +38,6 @@ export function Footer() {
                 href="#"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <div size={20} />
               </a>
             </div>
           </div>
@@ -164,7 +160,7 @@ export function Footer() {
         </div>
       </div>
 
-            <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center">
         <div>mwanikitiffany&copy; 2024 . All rights reserved.</div>
         <div className="flex space-x-4">
           <a href="https://github.com/RivoltaAlpha" aria-label="GitHub" target='blank'><Github /></a>
