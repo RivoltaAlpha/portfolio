@@ -47,7 +47,7 @@ export function PricingSection() {
   ]
   return (
     <>
-    <section id="pricing" className="py-20 px-4 bg-[#1d2842]">
+    <section id="pricing" className="py-20 mt-20 px-4 bg-[#1d2842]">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Pricing Plans</h2>
@@ -97,6 +97,6 @@ export function PricingSection() {
         </div>
       </div>
     </section>
-        </>
+    </>
   )
 }
