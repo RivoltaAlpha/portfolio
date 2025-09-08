@@ -61,7 +61,7 @@ const ContactSection: React.FC = () => {
       });
     };
     return (
-      <section id='contact' className="bg-gray-800 text-white py-10">
+      <section id='contact' className="bg-gray-800 text-white py-10 max-w-8xl mx-auto px-4">
         <ToastContainer />
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-semibold text-blue-700 text-center mb-8">
@@ -69,7 +69,6 @@ const ContactSection: React.FC = () => {
           </h2>
   
           <div className="flex flex-col md:flex-row justify-between items-center md:space-x-10">
-            {/* Left Side: Contact Info */}
             <div className="md:w-1/3 space-y-4">
               <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
                 <div className="flex items-center space-x-3">
