@@ -10,11 +10,11 @@ export const About: React.FC = () => (
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full lg:w-1/2">
           <h3 className="text-xl font-semibold mb-4 text-teal-300">About Me</h3>
           <p className="text-base leading-relaxed mb-4">
-            I am a Developer with robust background in various technological domains, including software development, database management, web programming, machine learning, and data science.
+            I am a Developer with robust background in various technological domains, including software development, devsecops, database management, web programming, machine learning, and data science.
             I am passionate about continuously seeking new challenges and opportunities for growth, community engagement and development as well as mentoring others in the field of technology.
           </p>
           <p className="text-base leading-relaxed mb-4">
-            When I'm not immersed in my studies or working on projects, I enjoy skating and playing Rollball. These activities not only keep me active but also help me maintain a balanced lifestyle.
+            When I'm not immersed in Tech or working on projects, I enjoy skating and playing Rollball. These activities not only keep me active but also help me maintain a balanced lifestyle.
           </p>
           <p className="text-base leading-relaxed">
             I am eager to contribute to cutting-edge projects and collaborate with like-minded professionals to drive technological advancements by making use of my diverse skill set and a strong drive for innovation.
@@ -24,8 +24,13 @@ export const About: React.FC = () => (
         {/* Skills Card */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full lg:w-1/2">
           <h3 className="text-xl font-semibold mb-4 text-teal-300">Skills and Experience</h3>
+          <p className="text-base leading-relaxed mb-4">
+            I have a strong foundation in various areas of technology, including:
+          </p>
           <ul className="list-disc list-inside space-y-12 text-base">
             <li>Software Development: Proficient in multiple programming languages and development frameworks.</li>
+            <li>DevOps: Experienced in managing and automating the deployment, monitoring, and scaling of applications.</li>
+            <li>DevSecOps: Knowledgeable in integrating security practices into the development and deployment process.</li>
             <li>Database Management: Experienced in designing, implementing, and managing databases.</li>
             <li>Web Programming: Skilled in creating dynamic and responsive web applications.</li>
             <li>Machine Learning & Data Science: Knowledgeable in applying machine learning algorithms and data analysis techniques to solve real-world problems.</li>

@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
           I'm <span className="text-cards">Mwaniki Tifany Nyawira</span>
         </h2>
         <p className="mb-10 mt-10 text-gray-400 text-sm md:text-base">
-          A Software Engineer and a Data Analyst.
+          DevSecOps Engineer | Software Engineering | Community Leader | Mentor
         </p>
         <a
           href="/TIFANY_Resume.pdf"

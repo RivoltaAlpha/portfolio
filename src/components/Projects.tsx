@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     title: "Freshcart",
-    description: ", FreshCart began with a simple idea: everyone deserves access to fresh, quality groceries without the hassle of long shopping trips. We started by partnering with local farmers and suppliers in Nairobi, creating a platform that benefits both consumers and producers.",
+    description: "FreshCart began with a simple idea: everyone deserves access to fresh, quality groceries without the hassle of long shopping trips. We started by partnering with local farmers and suppliers in Nairobi, creating a platform that benefits both consumers and producers.",
     techStack: ["React.js", "Nest.js", "TypeScript", "PostgreSQL"],
     liveLink: "https://fresh-cart-beta-hazel.vercel.app/",
     githubLink: "https://github.com/RivoltaAlpha/FreshCart",
@@ -57,7 +57,7 @@ const projects = [
     liveLink: "https://cybereyesnetworks.co.ke/",
     githubLink: "https://github.com/RivoltaAlpha/Cyber-Eyes",
     imageSrc: "/images/cyber.png"
-  },
+  }
 ];
 
 

@@ -71,6 +71,39 @@ export const Experience: React.FC = () => (
             </p>
           </div>
         </div>
+
+        {/* Card 5: Teach2Give Trainer */}
+        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
+          <img 
+            src="/images/t2g.jpeg"
+            alt="Teach2Give Logo" 
+            className="w-16 h-16 object-contain rounded-full" 
+          />
+          <div>
+            <h3 className="text-xl font-semibold mb-2 text-teal-500">Teach2Give Trainer</h3>
+            <p className="mb-2 text-sm text-gray-400">August 2025 - January 2026</p>
+            <p>
+              As a Teach2Give Trainer, I provide training and support to educators and students in the use of technology for teaching and learning.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 6: DevOps Engineer */}
+        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
+          <img 
+            src="/images/devops.jpeg"
+            alt="DevOps Logo" 
+            className="w-16 h-16 object-contain rounded-full" 
+          />
+          <div>
+            <h3 className="text-xl font-semibold mb-2 text-teal-500">DevOps Engineer</h3>
+            <p className="mb-2 text-sm text-gray-400">February 2026 - Present</p>
+            <p>
+              As a DevOps Engineer, I manage and automate the deployment, monitoring, and scaling of applications, ensuring high availability and performance.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
