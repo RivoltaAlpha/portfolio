@@ -91,7 +91,7 @@ export const Experience: React.FC = () => (
         {/* Card 6: DevOps Engineer */}
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
           <img 
-            src="/images/devops.jpeg"
+            src="/images/devops.jpg"
             alt="DevOps Logo" 
             className="w-16 h-16 object-contain rounded-full" 
           />
