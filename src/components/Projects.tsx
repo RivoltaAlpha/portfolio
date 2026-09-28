@@ -3,6 +3,14 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
+    title: "Freshcart",
+    description: ", FreshCart began with a simple idea: everyone deserves access to fresh, quality groceries without the hassle of long shopping trips. We started by partnering with local farmers and suppliers in Nairobi, creating a platform that benefits both consumers and producers.",
+    techStack: ["React.js", "Nest.js", "TypeScript", "PostgreSQL"],
+    liveLink: "https://fresh-cart-beta-hazel.vercel.app/",
+    githubLink: "https://github.com/RivoltaAlpha/FreshCart",
+    imageSrc: "/images/freshcart.png"
+  },
+  {
     title: "CareerWiz",
     description: "This Application uses Machine Learning, to develop a website that provides students with personalized career guidance based on their personal interests and academic performance, bridging the gap of lack of personalized guidance for students. (Website)",
     techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
@@ -19,45 +27,37 @@ const projects = [
     imageSrc: "/images/anirent.png"
   },
   {
-    title: "SurgeProcure",
-    description: "Collaborated on a e-procurement platform built to streamline the procurement process for organizations, ensuring efficiency and transparency.",
-    techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
-    liveLink: "https://www.surgeprocure.co.ke/",
-    githubLink: "https://github.com/deniswachira/surgeproc-ui",
-    imageSrc: "/images/surge.png"
-  },
-  {
     title: "Computer Society of Kirinyaga",
     description: "The official website of the Computer Society of Kirinyaga, dedicated to promoting technology-related events, sharing resources in Kirinyaga university Tech communities.",
     techStack: ["React.js", "TailwindCSS", "Node.js", "Drizzle"],
-    liveLink: "https://computersocietyofkirinyaga.tech/",
+    liveLink: "https://computersocietyofkirinyaga.org/",
     githubLink: "https://github.com/Computer-Society-Of-Kirinyaga/csk-frontend",
     imageSrc: "/images/csk.png"
+  },
+  {
+    title: "Kilele Bracelets",
+    description: "Health bracelets support individuals with various medical conditions, enabling them to monitor specific patterns, and can alert for allergies or seizures, proactively managing various health conditions.As unprecedented, health bracelets instantly provide first responders with critical medical details like allergies, medications, ailments, and emergency contacts including name and next-of-kin's vital information.",
+    techStack: ["React.js", "TailwindCSS", "Django", "MongoDB"],
+    liveLink: "https://kilele-bracelets.vercel.app/",
+    githubLink: "https://github.com/RivoltaAlpha/Kilele-Bracelets",
+    imageSrc: "/images/kilele.png"
+  },
+  {
+    title: "DevSpace",
+    description: "DevSpace, a space where developers can find understanding, support, and resources for the unique mental health challenges in tech.",
+    techStack: ["React.js", "Nest.js", "TypeScript", "TailwindCSS", "PostgreSQL"],
+    liveLink: "https://dev-space-sandy.vercel.app/about",
+    githubLink: "https://github.com/RivoltaAlpha/devSpace",
+    imageSrc: "/images/devspace.png"
   },
   {
     title: "Cyber Eyes Networks",
     description: "A web application dedicated to showcasing cybersecurity content and resources. It offers various tools and techniques related to cybersecurity education.",
     techStack: ["React.js", "Node.js", "Hono", "PostgreSQL"],
     liveLink: "https://cybereyesnetworks.co.ke/",
-    githubLink: "https://github.com/RivoltaAlpha/CyberStatic",
+    githubLink: "https://github.com/RivoltaAlpha/Cyber-Eyes",
     imageSrc: "/images/cyber.png"
   },
-  {
-    title: "CodeWorld",
-    description: "CodeWorld, is a platform for sharing and collaborating on code projects. Users can create, edit, and manage projects in a seamless environment.",
-    techStack: ["React.js", "Node.js", "Hono", "TailwindCSS"],
-    liveLink: "https://codeworld-frontend.vercel.app/",
-    githubLink: "https://github.com/RivoltaAlpha/Codeworld_frontend",
-    imageSrc: "/images/code.png"
-  },
-  // {
-  //   title: 'Restaurant API',
-  //   description: 'The restaurant API uses cutting-edge technologies to develop a scalable application. This is a restaurant system management API. The API is RESTful and returns data in JSON format. ',
-  //   techStack: ['Node.js', 'Hono.js', 'Postgres', 'Drizzle', 'Azure'],
-  //   liveLink: 'http://mwanikitiff.me/restaurant_frontpage/',
-  //   githubLink: 'https://github.com/RivoltaAlpha/Restaurant_API',
-  //   imageSrc: "/images/restaurant.png"
-  // }
 ];
 
 
