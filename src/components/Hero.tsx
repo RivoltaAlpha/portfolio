@@ -26,10 +26,10 @@ export const Hero: React.FC = () => {
       <div className="text-center md:text-left lg:ml-20 md:max-w-lg">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">Hey there...</h1>
         <h2 className="text-4xl md:text-8xl font-bold mb-4">
-          I'm <span className="text-cards">Mwaniki Tifany Nyawira</span>
+          I'm <span className="text-cards">Mwaniki Tifany </span>
         </h2>
         <p className="mb-10 mt-10 text-gray-400 text-sm md:text-base">
-          DevSecOps Engineer | Software Engineering | Community Leader | Mentor
+          Software Development | DevOps | DevSecOps Engineer | Tech Community Leader | Mentorship
         </p>
         <a
           href="/TIFANY_Resume.pdf"
